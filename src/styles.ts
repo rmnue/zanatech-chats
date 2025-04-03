@@ -33,10 +33,8 @@ export default {
     padding: "20px 25px",
   },
   appLogoWrapper: {
-    width: "40px",
-    height: "40px",
-    borderRadius: "5px",
-    border: "1.25px solid #394762",
+    width: "60px",
+    height: "60px",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -47,7 +45,7 @@ export default {
     textAlign: "center",
     color: "#FFFFFF",
     lineHeight: "20px",
-    paddingLeft: "16px",
+    paddingLeft: "0px",
   } as CSSProperties,
   appLogoSubTitle: {
     fontSize: "12px",

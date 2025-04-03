@@ -1,10 +1,11 @@
 import { LogoTwilioIcon } from "@twilio-paste/icons/esm/LogoTwilioIcon";
 import React from "react";
 import { IconSize, TextColor } from "@twilio-paste/style-props";
+import ZanatechLogoSmall from "./components/icons/ZanatechLogoSmall";
 
-export const LOGO_TITLE = "Twilio Conversations";
-export const LOGO_SUB_TITLE = "Demo application";
-export const APP_TITLE = "Conversations Demo";
+export const LOGO_TITLE = "Zanatech Conversations";
+export const LOGO_SUB_TITLE = "Chats de usuarios";
+export const APP_TITLE = "Zanatech Conversations";
 
 interface LogoTwilioIconProps {
   decorative?: boolean;
@@ -13,16 +14,4 @@ interface LogoTwilioIconProps {
   title?: string;
 }
 
-export const AppLogo: React.FC<LogoTwilioIconProps> = ({
-  decorative = false,
-  color = "colorTextBrandHighlight",
-  size = "sizeIcon40",
-  title = "app logo",
-}) => (
-  <LogoTwilioIcon
-    decorative={decorative}
-    color={color}
-    size={size}
-    title={title}
-  />
-);
+export const AppLogo: React.FC = () => <ZanatechLogoSmall />;

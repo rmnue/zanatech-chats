@@ -8,6 +8,7 @@ import { InputType } from "../../types";
 import ModalInputField from "../modals/ModalInputField";
 import styles from "../../styles";
 import TwilioLogo from "../icons/TwilioLogo";
+import ZanatechLogo from "../icons/ZanatechLogo";
 import useAppAlert from "../../hooks/useAppAlerts";
 import React from "react";
 
@@ -86,8 +87,8 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
             color="colorTextInverse"
           />
         </Box>
-        <div style={styles.loginTitle}>Twilio Conversations</div>
-        <div style={styles.subTitle}>Demo experience</div>
+        <div style={styles.loginTitle}>Zanatech Conversations</div>
+        <div style={styles.subTitle}>Chats de usuarios</div>
         <Box style={styles.loginForm}>
           <Box style={styles.userInput}>
             <ModalInputField
@@ -145,8 +146,8 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
             </Button>
           </Box>
         </Box>
-        <Box style={{ paddingTop: 40 }}>
-          <TwilioLogo />
+        <Box style={styles.appLogoWrapper}>
+          <ZanatechLogo />
         </Box>
       </Box>
       <Box style={styles.loginBackground}>
